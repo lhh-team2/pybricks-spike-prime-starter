@@ -32,15 +32,15 @@ if _BUNDLE_HINTS:
     import keystone
     import mycelium
     import bug_door_nest_compost
-    import drone
-    import ROCK
     import skylight
+    import ROCK
+    import drone
 
 MENU_ITEMS = [
     {"display": 1, "module": "keystone"},
     {"display": 2, "module": "mycelium"},
     {"display": 3, "module": "bug_door_nest_compost"},
-    {"display": 4, "module": "drone"},
+    {"display": 4, "module": "skylight"},
     {"display": 5, "module": "ROCK"},
-    {"display": 6, "module": "skylight"},
+    {"display": 6, "module": "drone"},
 ]
